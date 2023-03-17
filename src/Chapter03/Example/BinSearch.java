@@ -2,7 +2,7 @@ package Chapter03.Example;
 
 import java.util.Scanner;
 
-// 실습 3-3 : 이진 검색
+// 실습 3-4 : 이진 검색
 public class BinSearch {
 
     // 요솟수가 n인 배열 a에서 key 와 값이 같은 요소를 이진 검색
@@ -44,7 +44,7 @@ public class BinSearch {
             } while (x[i] < x [i - 1]);    // 비로 앞의 요소보다 작으면 다시 입력받음
         }
 
-        System.out.println("검색할 값: ");    // 키값을 입력받음
+        System.out.print("검색할 값: ");    // 키값을 입력받음
         int ky = stdIn.nextInt();
 
         int idx = seqSearch(x, num, ky);   // 배열 x에서 값이 ky인 요소를 검색

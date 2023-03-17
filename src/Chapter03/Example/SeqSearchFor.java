@@ -2,7 +2,7 @@ package Chapter03.Example;
 
 import java.util.Scanner;
 
-// 실습 3-2 : 선형 검색
+// 실습 3-2 : 선형 검색(For)
 public class SeqSearchFor {
 
     // 요솟수가 n인 배열 a에서 key 와 값이 같은 요소를 선형 검색
@@ -26,7 +26,7 @@ public class SeqSearchFor {
             x[i] = stdIn.nextInt();
         }
 
-        System.out.println("검색할 값: ");   // 키값을 입력받음
+        System.out.print("검색할 값: ");   // 키값을 입력받음
         int ky = stdIn.nextInt();
         int idx = seqSearch(x, num, ky);
 

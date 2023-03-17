@@ -31,7 +31,7 @@ public class SeqSearch {
             x[i] = stdIn.nextInt();
         }
 
-        System.out.println("검색할 값: ");   // 키값을 입력받음
+        System.out.print("검색할 값: ");   // 키값을 입력받음
         int ky = stdIn.nextInt();
         int idx = seqSearch(x, num, ky);
 

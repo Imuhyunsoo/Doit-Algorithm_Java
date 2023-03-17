@@ -1,21 +1,20 @@
-package Chapter03.Example;
+package Chapter03.Practice;
 
 import java.util.Scanner;
 
-// 실습 3-3 : 선형 검색(보초법)
-public class SeqSearchSen {
+// 연습문제 1 : 실습 3-3의 seqSearchSen 메소드를 while 문 대신 for 문을 사용하여 수정한 프로그램을 작성하세요.
+public class SeqSearchSenFor {
 
     // 요솟수가 n인 배열 a에서 key 와 값이 같은 요소를 보초법으로 선형 검색
     static int seqSearch(int a[], int n, int key) {
 
-        int i = 0;             // 보초를 추가
+        int i;             // 보초를 추가
 
         a[n] = key;
 
-        while (true) {
+        for (i = 0; i < a.length + 1; i++) {
             if (a[i] == key)   // 검색 성공
                 break;
-            i++;
         }
         return i == n ? -1 : i;
     }
