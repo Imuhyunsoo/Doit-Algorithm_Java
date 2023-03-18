@@ -1,6 +1,7 @@
 package Chapter04.Practice;
 
-// 실습 4-3 : int 형 고정 길이 큐
+// 연습문제 7 : 일반적으로 덱이라 하는 양방향 대기열은 다음 그림처럼 맨 앞과 맨 뒤 양쪽에서 데이터를 인큐하거나 디큐하는 자료구조입니다.
+//            양방향 대기열을 구현하는 클래스 IntDeque 를 만드세요. 이때 덱에 저장하는 데이터의 자료형은 int 형으로 합니다.
 public class IntDeque {
 
     private int[] que;      // 큐용 배열
