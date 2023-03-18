@@ -2,6 +2,7 @@ package Chapter04.Example;
 
 import java.util.Scanner;
 
+// 실습 4C-1 : 원하는 개수만큼 값을 계속 입력받고, 요솟수가 N인 배열에 마지막 N개를 저장
 public class LastNElements {
 
     public static void main(String[] args) {
